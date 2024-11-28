@@ -1,0 +1,6 @@
+name: football-analysis
+channels:
+  - defaults
+dependencies:
+  - pip
+prefix: C:\Users\ALEX\anaconda3\envs\football-analysis

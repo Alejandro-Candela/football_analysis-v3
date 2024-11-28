@@ -1,0 +1,33 @@
+name: football-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2=1.0.8
+  - ca-certificates=2024.9.24
+  - expat=2.6.3
+  - libffi=3.4.4
+  - libmpdec=4.0.0
+  - openssl=3.0.15
+  - pip=24.2
+  - python=3.13.0
+  - python_abi=3.13
+  - setuptools=75.1.0
+  - sqlite=3.45.3
+  - tk=8.6.14
+  - tzdata=2024b
+  - vc=14.40
+  - vs2015_runtime=14.40.33807
+  - wheel=0.44.0
+  - xz=5.4.6
+  - zlib=1.2.13
+  - pip:
+      - build==1.2.2.post1
+      - click==8.1.7
+      - colorama==0.4.6
+      - numpy==2.1.3
+      - opencv-python==4.10.0.84
+      - packaging==24.2
+      - pip-tools==7.4.1
+      - pyproject-hooks==1.2.0
+prefix: C:\Users\ALEX\anaconda3\envs\football-analysis

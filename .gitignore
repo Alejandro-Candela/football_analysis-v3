@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MLflow
+lab/mlruns/
+lab/mlflow_artifacts/
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Training artifacts
+runs/
+*.pt
+!app/models/best.pt  # Keep the best model in version control
+wandb/
+.wandb
+
+# Data
+data/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+*.mov
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# DVC
+.dvc/
+/dvc.lock
+/dvc.yaml
+.dvcignore
+
+# Notebooks
+.ipynb_checkpoints/
+
+*__pycahce__*
+*.pyc
+lab/input_videos/*
+lab/output_videos/*
+lab/runs/*
+lab/models/*
+lab/training/football-players-detection-1/football-players-detection-1
+app/models/*
+.env
+instructions.md
