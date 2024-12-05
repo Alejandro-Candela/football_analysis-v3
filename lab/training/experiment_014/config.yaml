@@ -1,9 +1,0 @@
-model_name: yolo11n.pt
-parameters:
-  batch_size: 16
-  data_yaml: C:\Users\ALEX\Documents\MEGAsync\ai_dev\football_analysis-v3\data\train_data\data.yaml
-  device: cuda
-  epochs: 2
-  image_size: 640
-  model_type: YOLOv8n
-timestamp: '2024-12-05T13:22:19.462781'
